@@ -8,3 +8,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/nnpia
     username: nnpia
     password: nnpia
+  jpa:
+    hibernate:
+      ddl-auto: create

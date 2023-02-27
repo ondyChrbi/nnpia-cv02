@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/appUser")
+@RequestMapping("/app-user")
 public class UserController {
     private final AppUserRepository appUserRepository;
 
